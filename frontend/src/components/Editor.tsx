@@ -26,7 +26,6 @@ export const Editor = React.memo(({
         className="w-full p-4 border border-gray-200 rounded-md min-h-64"
         value={content}
         onChange={onChange}
-        disabled={isLoading}
         rows={25}
       />
       <div className="flex justify-end gap-2 mt-4">
